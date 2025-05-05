@@ -6,15 +6,15 @@ import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Browse from './Components/Browse.jsx';
 import Addbook from './Components/Addbook.jsx';
-import Fiction from './Components/Fiction.jsx';
+
 import Error from './Components/Error.jsx';
 import Details from './Components/Detailsofbook.jsx';
-import Nonfiction from './Components/Non-fiction.jsx';
-import Scifi from './Components/Scifi.jsx';
+
+
 import Browsedetails from './Components/Browsedetails.jsx';
 import CategoryPage from './Categotypage.jsx';
 import { store } from './Components/store.js';
-import Fantasy from './Components/Fantasy.jsx';
+
 
 
 

@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom"
-import Fiction from "./Fiction"
-import { NavLink } from "react-router-dom"
 
 function Categories(){
     return(
