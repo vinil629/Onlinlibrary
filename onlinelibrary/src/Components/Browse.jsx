@@ -6,6 +6,9 @@ import { useState } from 'react';
 
 function Browse() {
   const books = useSelector((state) => state.books);
+  
+  console.log(books)
+ 
 
   const [query, setQuery] = useState('');
 
