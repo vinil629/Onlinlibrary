@@ -13,7 +13,7 @@ function Navbar(){
                 <ul className="flex flex-row gap-5 capitalize">
                     <Link to="/">home</Link>
                    <Link to="browse">Browse</Link>
-                   <Link to="/add">Add</Link>
+                   <Link to="/add">Add book</Link>
                   
                    
                 </ul>
