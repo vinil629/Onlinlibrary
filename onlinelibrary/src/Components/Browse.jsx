@@ -25,10 +25,10 @@ function Browse() {
   return (
     <>
       <Search onSearch={setQuery}/>
-      <div className="flex flex-wrap gap-10 justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
         {filteredBooks.map((item) => (
           <div key={item.id} className="w-64 border p-4 rounded shadow-md text-center">
-            <img src={item.image} alt={item.title} className="h-48 w-full object-cover mb-3 rounded" />
+            <img src={item.image} alt={item.title} className="h-40 w-40 sm:h-48 sm:w-48 object-cover rounded-md mb-4" />
             <h1>{item.title}</h1>
             <h2 className="text-sm text-gray-600">{item.author}</h2>
             <Link to={`/browse/${item.id}`}>

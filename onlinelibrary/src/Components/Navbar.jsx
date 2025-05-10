@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function Navbar(){
     return(
         <>
-        <div className="Nav">
+        <div className="">
             <div className="bg-amber-500 p-4 text-center text-2xl">
             <h2>onlinelibrary</h2>
 

@@ -11,7 +11,7 @@ function Categories(){
             </div>
 
             <div className="text-center mt-5">
-            <ul className="flex gap-8 justify-center">
+            <ul className="flex  flex-col gap-8 justify-center sm:flex-col md:flex-col lg:flex-row">
             <Link to="/category/Fiction" className="hover:underline">Fiction</Link>
 <Link to="/category/Sci-fi" className="hover:underline">Sci-fi</Link>
 <Link to="/category/Fantasy" className="hover:underline">Fantasy</Link>
